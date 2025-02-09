@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Jadui hath",
+  "version": "0.0.1",
+  "description": "Website Element Remover & Page Cleaner - Clean up distracting content with a magical click. Customize any webpage instantly.",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Jadui hath",
+    "default_icon": {
+      "16": "images/hath16.png",
+      "48": "images/hath48.png",
+      "128": "images/hath128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": {
+    "16": "images/hath16.png",
+    "48": "images/hath48.png",
+    "128": "images/hath128.png"
+  }
+}
